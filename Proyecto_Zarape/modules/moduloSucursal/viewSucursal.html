@@ -1,0 +1,99 @@
+<div class="container-fluid">
+    <div class="header row align-items-center mb-4">
+        <div class="col-12 col-md-8 title">
+            <h1>Sucursal {Nombre}</h1>
+        </div>
+        <div class="col-12 col-md-4 text-md-end user-info">
+            <span>Hola, Diego Landeros</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </div>
+    <div class="content" id="contenedorPrincipal">
+        <div class="search-bar row g-2 mb-4 align-items-center">
+            <section class="container my-2 p-5 backee">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="txtNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="txtNombre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtDireccion" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="txtDireccion">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtLatitud" class="form-label">Latitud</label>
+                        <input type="text" class="form-control" id="txtLatitud">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtLongitud" class="form-label">Longitud</label>
+                        <input type="text" class="form-control" id="txtLongitud">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtURL" class="form-label">URL</label>
+                        <input type="text" class="form-control" id="txtURL">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtHorario" class="form-label">Horario</label>
+                        <input type="text" class="form-control" id="txtHorario">
+                    </div>
+
+                    <div class="col-md-6 d-grid">
+                        <button type="button" class="btn boton-color"
+                            onclick="moduloSucursal.agregarSucursal();" id="btnAgregarSucursal">
+                            Agregar Sucursal
+                        </button>
+                    </div>
+                    <div class="col-md-6 d-grid">
+                        <button type="button" class="btn boton-color"
+                            onclick="moduloSucursal.limpiarFormulario()">
+                            Limpiar Registro
+                        </button>
+                    </div>
+                    <div class="col-md-6 d-grid">
+                        <button type="button" class="btn boton-color"
+                            onclick="moduloSucursal.eliminarSucursal();" id="btnEliminarSucursal" disabled>
+                            Eliminar Sucursal
+                        </button>
+                    </div>
+                    <div class="col-md-6 d-grid">
+                        <button type="button" class="btn boton-color"
+                            onclick="moduloSucursal.actualizarSucursal()" id="btnActualizarSucursal" disabled>
+                            Actualizar Sucursal
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <div class="content-1">
+                <div class="table-container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <label for="txtBuscar" class="form-label">Buscar</label>
+                            <input type="text" class="form-control" id="txtBuscar">
+                        </div>
+                        <div class="col-md-3 d-grid">
+                            <button type="button" class="btn boton-color" onclick="moduloSucursal.buscarSucursal()">
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Dirección</th>
+                                <th>GPS</th>
+                                <th>URL</th>
+                                <th>Horario</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tdSucursal">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

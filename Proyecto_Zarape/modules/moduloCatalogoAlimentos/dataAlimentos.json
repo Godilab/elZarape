@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Enchiladas verdes",
+        "descripcion" : "Ricas enchiladas clasicas bañadas de nuestra deliciosa salsa verde",
+        "precio": "70.00",
+        "categoria" : "Platillo",
+        "estatus" : "Activo"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Sopa azteca",
+        "descripcion" : "Clasica sopa mexicana de tortilla",
+        "precio": "70.00",
+        "categoria" : "Sopa",
+        "estatus" : "Activo"
+    },
+    {   
+        "id" : "3",
+        "nombre" : "Taco de guisado",
+        "descripcion" : "La mejor comida mexicana con varios guisados a elegir",
+        "precio": "13.00",
+        "categoria" : "Taco",
+        "estatus": "Activo"
+    }
+]

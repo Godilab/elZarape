@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Uriel Antonio",
+         "contrasena" : "Palito"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Diego Alejandro",
+        "contrasena" : "Fort123"
+
+    },
+    {   
+        "id" : "3",
+        "nombre" : "Roger echeveste",
+        "contrasena" : "Hola329"
+    }
+]

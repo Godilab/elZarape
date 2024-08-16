@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Zarape</title>
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar mb-4 fixed-top color_custom">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between w-100">
+                    <button type="button" class="btn btn-warning pad">Menú</button>
+                    <div class="d-flex justify-content-center flex-grow-1">
+                        <img src="recurses/Zarapeimg.png" alt="zarape_Img" width="50" height="44">
+                    </div>
+                    <button type="button" class="btn btn-warning pad-c">Iniciar Sesión</button>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card tar">
+       <div class="med">
+        <h2 class="text-center mb-4"><strong>INICIO DE SESIÓN</strong></h2>
+        <form>
+            <div class="input-group">
+                <input type="text" required id="txtUsername">
+                <label for="txtUsername">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" required id="txtPassword">
+                <label for="txtPassword">Password</label>
+            </div>           
+            <button type="button" class="pad-1" onclick="iniciarSesion();">Iniciar sesión</button>
+        </form>
+        <div class="text">
+            Solo <a href="#">administradores</a> y <a href="#">empleados</a> pueden ingresar
+        </div>
+        </div>
+    </div>
+</div>   
+    <script src="style/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/validate.js"></script>
+</body>
+</html>

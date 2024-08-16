@@ -1,0 +1,82 @@
+<div class="container-fluid">
+    <div class="header row align-items-center mb-4">
+        <div class="col-12 col-md-8 title">
+            <h1>Sucursal {Nombre}</h1>
+        </div>
+        <div class="col-12 col-md-4 text-md-end user-info">
+            <span>Hola, Diego Landeros</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </div>
+    <div class="content" id="contenedorCambio">
+      <div class="search-bar row g-2 mb-4 align-items-center">
+          <div class="col-12 col-md-auto">
+              <label for="txtBusquedaCombo" class="form-label">Buscar Combo:</label> 
+          </div>
+          <div class="col-12 col-md">
+              <input type="text" id="txtBusquedaCombo" class="form-control"> 
+          </div>
+          <div class="col-12 col-md-auto">
+              <button class="btn btn-outline-secondary w-100 w-md-auto" onclick="moduloCombo.searchCombo();">
+                  <i class="bi bi-search"></i> Buscar
+              </button>
+          </div>
+<section class="container my-2 p-5 backee">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="txtId" class="form-label">ID</label>
+          <input type="text" class="form-control" id="txtId" readonly>
+        </div>
+        <div class="col-md-6">
+          <label for="txtNombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="txtNombre">
+        </div>
+        <div class="col-12">
+          <label for="txtDescripcion" class="form-label">Descripción</label>
+          <input type="text" class="form-control" id="txtDescripcion">
+        </div>
+        <div class="col-12">
+          <label for="txtPrecio" class="form-label">Precio</label>
+          <input type="number" class="form-control" id="txtPrecio">
+        </div>
+        <div class="col-12">
+          <label for="txtAlimento" class="form-label">ID Alimento</label>
+          <input type="text" class="form-control" id="txtAlimento">
+        </div>
+        <div class="col-12">
+            <label for="txtBebida" class="form-label">ID Bebida</label>
+            <input type="text" class="form-control" id="txtBebida">
+          </div>
+        <div class="col-md-6">
+          <a class="btn form-control boton-color" onclick="moduloCombo.addCombo();" id="addCombo">Agregar Combo</a>
+      </div>
+      <div class="col-md-6">
+        <a class="btn form-control boton-color" onclick="moduloCombo.clean();" id="cleanCombo">Limpiar Combo</a>
+    </div>
+    <div class="col-md-6">
+      <a class="btn form-control boton-color" onclick="moduloCombo.deleteCombo();" id="deleteCombo">Borrar Combo</a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn form-control boton-color" onclick="moduloCombo.updateCombo();" id="updateCombo">Actualizar Combo</a>
+</div>
+      </form>
+</section>
+<div class="content-1">
+<div class="table-container">
+  <table class="table table-striped" id="table">
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Descripción</th>
+              <th>Precio</th>
+              <th>ID Alimento</th>
+              <th>ID Bebida</th>
+              <th>Estatus</th>
+          </tr>
+      </thead>
+      <tbody id="combo-table-body">
+          <!-- Contenido de la tabla -->
+      </tbody>
+  </table>
+</div>

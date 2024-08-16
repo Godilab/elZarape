@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FEF2E4;
+}
+
+.pad {
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: #E7A563;
+    color: #FFFFFF;
+}
+
+.pad-c {
+    background-color: #E7A563;
+    color: #FFFFFF;
+}
+
+.pad-1 {
+    width: 100%;
+    height: 45px;
+    background-color: #E7A563;
+    border-radius: 5px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 400px;
+}
+
+form {
+    margin-top: 80px;
+}
+
+.color_custom {
+    background-color: #FFDD99;
+}
+
+.input-group {
+    position: relative;
+    margin: 35px 0;
+    border: 3px solid #FFDD99;
+    border-radius: 15px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #B3B3B3;
+    padding-bottom: 5px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 360px;
+    height: 50px;
+    font-size: 16px;
+    color: #B3B3B3;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: 0;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #E7A563;
+}
+
+.tar {
+    width: 45%;
+    height: 525px;
+    border-radius: 10px;
+    box-shadow: -7px 5px 34px -4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -7px 5px 34px -4px rgba(0,0,0,0.52);
+    -moz-box-shadow: -7px 5px 34px -4px rgba(0,0,0,0.52);
+}
+
+.med {
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.text {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 25%;
+}
+body {
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    background-color: #FEF2E4;
+}
+.sidebar {
+    position: fixed; /* Fijo en la pantalla */
+    top: 0; /* Pegado a la parte superior */
+    left: 0; /* Pegado a la izquierda */
+    width: 240px; /* Ancho del menú */
+    background-color: #FFDD99; /* Color de fondo */
+    padding-top: 85px; /* Espaciado en la parte superior */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    height: 100vh; /* Altura completa de la ventana */
+}
+.sidebar a {
+    padding:15px 45px; /* Espaciado de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    color: #AD7842; /* Color del texto */
+    display: block; /* Que los enlaces ocupen todo el ancho */
+    font-size: 25px;
+}
+.sidebar a:hover {
+    background-color: #CC6600; /* Color de fondo al pasar el mouse */
+    color: #FFFFFF;
+}
+.content {
+    margin-left: 250px; /* Espacio a la izquierda para el menú */
+    padding: 20px; /* Espaciado interno del contenido */
+}
+.content-1 {
+    margin-left: 1%;
+}
+
+.search-bar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+.backee{
+    background-color: #FFFFFF;
+}
+
+.boton-color {
+    background-color: #E7A563;
+    color: #FFFFFF;
+    margin-top: 32px;
+}

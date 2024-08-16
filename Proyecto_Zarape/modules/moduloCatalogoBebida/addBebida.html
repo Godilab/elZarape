@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="header row align-items-center mb-4">
+        <div class="col-12 col-md-8 title">
+            <h1>Sucursal {Nombre}</h1>
+        </div>
+        <div class="col-12 col-md-4 text-md-end user-info">
+            <span>Hola, Diego Landeros</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </div>
+    <div class="content" id="contenedorCambio">
+      <div class="search-bar row g-2 mb-4 align-items-center">
+          <div class="col-12 col-md-auto">
+              <label for="txtBusquedaBebida" class="form-label">Buscar bebida:</label>
+          </div>
+          <div class="col-12 col-md">
+              <input type="text" id="txtBusquedaBebida" class="form-control">
+          </div>
+          <div class="col-12 col-md-auto">
+              <button class="btn btn-outline-secondary w-100 w-md-auto" onclick="moduloBebida.searchBebida();">
+                  <i class="bi bi-search"></i> Buscar
+              </button>
+          </div>
+<section class="container my-2 p-5 backee">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="txtId" class="form-label">ID</label>
+          <input type="text" class="form-control" id="txtId" readonly>
+        </div>
+        <div class="col-md-6">
+          <label for="txtNombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="txtNombre">
+        </div>
+        <div class="col-12">
+          <label for="txtDescripcion" class="form-label">Descripción</label>
+          <input type="text" class="form-control" id="txtDescripcion">
+        </div>
+        <div class="col-12">
+          <label for="txtPrecio" class="form-label">Precio</label>
+          <input type="number" class="form-control" id="txtPrecio">
+        </div>
+        <div class="col-12">
+          <label for="txtCategoria" class="form-label">Categoria</label>
+          <input type="text" class="form-control" id="txtCategoria">
+        </div>
+        <div class="col-md-6">
+          <a class="btn form-control boton-color" onclick="moduloBebida.addBebida();" id="addBebida">Agregar Bebida</a>
+      </div>
+      <div class="col-md-6">
+        <a class="btn form-control boton-color" onclick="moduloBebida.clean();" id="cleanBebida">Limpiar Registro</a>
+    </div>
+    <div class="col-md-6">
+      <a class="btn form-control boton-color" onclick="moduloBebida.deleteBebida();" id="deleteBebida">Borrar Bebida</a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn form-control boton-color" onclick="moduloBebida.updateBebida();" id="updateBebida">Actualizar Bebida</a>
+</div>
+      </form>
+</section>
+<div class="content-1">
+<div class="table-container">
+  <table class="table table-striped" id="table">
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Descripción</th>
+              <th>Precio</th>
+              <th>Categoria</th>
+              <th>Estatus</th>
+          </tr>
+      </thead>
+      <tbody id="bebida-table-body">
+          <!-- Contenido de la tabla -->
+      </tbody>
+  </table>
+</div>
+<script src="controllerBebida.js"></script>

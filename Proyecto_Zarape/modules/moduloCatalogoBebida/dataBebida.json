@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Coca",
+        "descripcion" : "Refresh",
+        "precio": "12.42",
+        "categoria" : "Refrescos",
+        "estatus" : "Activo"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Agua de Limon",
+        "descripcion" : "Suave y refrescante",
+        "precio": "10.00",
+        "categoria" : "Aguas frescas",
+        "estatus" : "Activo"
+    },
+    {   
+        "id" : "3",
+        "nombre" : "Pepsi",
+        "descripcion" : "Refresh",
+        "precio": "11.50",
+        "categoria" : "Refrescos",
+        "estatus": "Activo"
+    }
+]

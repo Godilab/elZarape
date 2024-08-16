@@ -1,0 +1,29 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Coca",
+        "descripcion" : "Refresh",
+        "precio": "195.23",
+        "alimento" : "3",
+        "bebida" : "2",
+        "estatus" : "Activo"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Agua de Limon",
+        "descripcion" : "Suave y refrescante",
+        "precio": "120.50",
+        "alimento" : "2",
+        "bebida" : "2",
+        "estatus" : "Activo"
+    },
+    {   
+        "id" : "3",
+        "nombre" : "Pepsi",
+        "descripcion" : "Refresh",
+        "precio": "65.50",
+        "alimento" : "1",
+        "bebida" : "2",
+        "estatus": "Activo"
+    }
+]

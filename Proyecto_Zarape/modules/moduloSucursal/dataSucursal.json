@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sucursal Central",
+    "direccion": "Av. Principal 123, Ciudad Central",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Sucursal Norte",
+    "direccion": "Av. Norte 456, Ciudad Norte",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Sucursal Sur",
+    "direccion": "Av. Sur 789, Ciudad Sur",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Sucursal Este",
+    "direccion": "Av. Este 1011, Ciudad Este",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Sucursal Oeste",
+    "direccion": "Av. Oeste 1213, Ciudad Oeste",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Sucursal Poniente",
+    "direccion": "Av. Poniente 1415, Ciudad Poniente",
+    "latitud": "19.432608",
+    "longitud": "-99.133209",
+    "url": "https://google.com/maps",
+    "horario": "8:00 - 18:00",
+    "status": 1
+  }
+]
